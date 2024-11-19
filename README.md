@@ -67,7 +67,7 @@ Python (if the project uses Python): Ensure it is installed and available in you
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
-<img src="screenshot.jpeg">
+<img width=200px height=200px src="screenshot.jpeg">
 
 
 ## 🎈 Usage <a name="usage"></a>
