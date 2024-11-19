@@ -43,16 +43,8 @@ pool once done.
 ## Prerequisites <a name = "prerequisites"></a>
 
 GNU Make:
-Linux: Pre-installed on most distributions; install using your package manager if missing.
-Windows: Install using one of the methods below.
-Required Dependencies: Refer to the Dependencies section.
-Python (if the project uses Python): Ensure it is installed and available in your system's PATH.
-
-### Installing <a name = "installing"></a>
-
-1. Verify <b>make<b> is installed
-2. Navigate to the project folder
-3. Execute Make Run
+Linux: Pre-installed on most distributions othrwise install using your package manager if missing.
+Windows: Install make on git bash 
 
 ## 🔧 Running the application <a name = "tests"></a>
 
@@ -61,8 +53,9 @@ Python (if the project uses Python): Ensure it is installed and available in you
 
 ## 🎈 Usage <a name="usage"></a>
 
-Just a simple make run command 
-Click start and the swimmers should start
+1. Verify <b>make<b> is installed
+2. Navigate to the project folder
+3. Execute Make Run
 
 OR
 
