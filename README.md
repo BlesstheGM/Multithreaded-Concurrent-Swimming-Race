@@ -13,6 +13,15 @@
     <br> 
 </p>
 
+- [About](#about)
+- [Prerequisites](#Prerequisites)
+- [Installing](#Installing)
+- [Usage](#usage)
+- [Running](#tests)
+- [Usage](usage)
+- [built_using](built_using)
+- [Authors](#authors)
+
 
 ## 🧐 About <a name = "about"></a>
 The simulation of the swim medley enforces strict rules regarding swimmer order, race transitions,
@@ -32,7 +41,7 @@ end of the 50m pool and back. Once they have finished their 100m, swimmers exit 
 and stand at the back of the stadium, except for the last member of the team, who stays in the
 pool once done.
 
-### Prerequisites
+### Prerequisites <a name = "Prerequisites"></a>
 
 GNU Make:
 Linux: Pre-installed on most distributions; install using your package manager if missing.
