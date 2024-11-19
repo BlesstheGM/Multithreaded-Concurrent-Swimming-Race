@@ -65,7 +65,7 @@ Python (if the project uses Python): Ensure it is installed and available in you
 2. Navigate to the project folder
 3. Execute Make Run
 
-## 🔧 Running the tests <a name = "tests"></a>
+## 🔧 Running the application <a name = "tests"></a>
 
 <img width=200px height=200px src="screenshot.jpeg">
 
