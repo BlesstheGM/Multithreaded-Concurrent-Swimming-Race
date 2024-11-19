@@ -17,8 +17,8 @@
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
 - [Running the Application](#tests)
-- [Usage](usage)
-- [built_using](built_using)
+- [Usage](#usage)
+- [built_using](#built_using)
 - [Authors](#authors)
 
 
