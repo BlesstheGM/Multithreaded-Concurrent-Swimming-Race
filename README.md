@@ -14,10 +14,9 @@
 </p>
 
 - [About](#about)
-- [Prerequisites](#Prerequisites)
-- [Installing](#Installing)
-- [Usage](#usage)
-- [Running](#tests)
+- [Prerequisites](#prerequisites)
+- [Installing](#installing)
+- [Running the Application](#tests)
 - [Usage](usage)
 - [built_using](built_using)
 - [Authors](#authors)
@@ -41,7 +40,7 @@ end of the 50m pool and back. Once they have finished their 100m, swimmers exit 
 and stand at the back of the stadium, except for the last member of the team, who stays in the
 pool once done.
 
-### Prerequisites <a name = "Prerequisites"></a>
+## Prerequisites <a name = "prerequisites"></a>
 
 GNU Make:
 Linux: Pre-installed on most distributions; install using your package manager if missing.
@@ -49,7 +48,7 @@ Windows: Install using one of the methods below.
 Required Dependencies: Refer to the Dependencies section.
 Python (if the project uses Python): Ensure it is installed and available in your system's PATH.
 
-### Installing
+### Installing <a name = "installing"></a>
 
 1. Verify <b>make<b> is installed
 2. Navigate to the project folder
