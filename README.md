@@ -33,10 +33,10 @@ This project was originally implemented using a sequential approach. I enhanced 
 
 Key Changes:
 
-Multithreading: Each swimmer is now represented as a separate thread, allowing their actions to be processed concurrently.
-Synchronization: Ensured race conditions are avoided using appropriate concurrency utilities like locks, synchronized blocks, or semaphores.
-Parallelization: Improved runtime efficiency by running swimmer threads in parallel, simulating real-world dynamics.
-Thread-safe design: Introduced safe communication between threads for relay transitions and swimmer interactions.
+- Multithreading: Each swimmer is now represented as a separate thread, allowing their actions to be processed concurrently.
+- Synchronization: Ensured race conditions are avoided using appropriate concurrency utilities like locks, synchronized blocks, or semaphores.
+- Parallelization: Improved runtime efficiency by running swimmer threads in parallel, simulating real-world dynamics.
+- Thread-safe design: Introduced safe communication between threads for relay transitions and swimmer interactions.
 
 ## Prerequisites <a name = "prerequisites"></a>
 
@@ -73,4 +73,4 @@ The console will display the swimming race's progress and results.
 ## ✍️ Authors <a name = "authors"></a>
 
 - Blessing Hlongwane<br>
-<b>Note:<b>This project builds upon an earlier sequential implementation and introduces concurrency to improve performance and realism.
+<b>Note:<b> This project builds upon an earlier sequential implementation and introduces concurrency to improve performance and realism.
