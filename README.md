@@ -1,19 +1,8 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
-</p>
-
-<h3 align="center">Multithreaded Concurrent Swimming Race</h3>
-
-
----
-
-<p align="center">This project simulates a Multithreaded Swimming Race, where swimmers compete in a race using threading to manage concurrency. Each swimmer is represented as a thread, and they race across a pool, updating their progress dynamically. The goal of the project is to demonstrate multithreading and concurrency concepts.
-
-    <br> 
-</p>
+<p align="center"> <a href="" rel="noopener"> <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a> </p> <h3 align="center">Multithreaded Concurrent Swimming Race</h3>
+<p align="center">This project simulates a Multithreaded Swimming Race, where swimmers compete in a race using threading to manage concurrency. Each swimmer is represented as a thread, and they race across a pool, updating their progress dynamically. The goal of the project is to demonstrate multithreading and concurrency concepts by transforming a previously sequential implementation into a concurrent one. <br> </p>
 
 - [About](#about)
+- [Enhancements](#enhancements)
 - [Prerequisites](#prerequisites)
 - [Running the Application](#tests)
 - [Usage](#usage)
@@ -38,6 +27,16 @@ proceed to line up at the starting block, then swim their 100m of the the race a
 end of the 50m pool and back. Once they have finished their 100m, swimmers exit the pool
 and stand at the back of the stadium, except for the last member of the team, who stays in the
 pool once done.
+
+## 🔄 Enhancements <a name = "enhancements"></a>
+This project was originally implemented using a sequential approach. I enhanced it by introducing concurrency and multithreading to simulate the swimming race more realistically and efficiently.
+
+Key Changes:
+
+Multithreading: Each swimmer is now represented as a separate thread, allowing their actions to be processed concurrently.
+Synchronization: Ensured race conditions are avoided using appropriate concurrency utilities like locks, synchronized blocks, or semaphores.
+Parallelization: Improved runtime efficiency by running swimmer threads in parallel, simulating real-world dynamics.
+Thread-safe design: Introduced safe communication between threads for relay transitions and swimmer interactions.
 
 ## Prerequisites <a name = "prerequisites"></a>
 
@@ -73,4 +72,5 @@ The console will display the swimming race's progress and results.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- Blessing Hlongwane
+- Blessing Hlongwane<br>
+<b>Note:<b>This project builds upon an earlier sequential implementation and introduces concurrency to improve performance and realism.
